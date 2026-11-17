@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/piu-piu-bg/sw.js', { scope: '/piu-piu-bg/' })})}

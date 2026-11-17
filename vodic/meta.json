@@ -1,0 +1,47 @@
+{
+  "info": {
+    "id": "piupiu",
+    "guideKey": "pp-guide-done",
+    "storageKey": "piu-piu-bg",
+    "fulfillments": [
+      "delivery",
+      "pickup"
+    ],
+    "sizes": 5,
+    "name": "PiuPiu",
+    "address": "Jurija Gagarina bb (pijaca Blok 44), Novi Beograd",
+    "phone": "060 3888 788",
+    "hours": "Blok 44: utorak–nedelja 11–19 (ponedeljkom odmaramo) · Hangar: svaki dan 10–22",
+    "instagram": "https://www.instagram.com/piupiu_rs/",
+    "logo": "logo.png",
+    "deliveryFee": 250,
+    "cardPayment": [],
+    "locations": 2,
+    "categories": 7,
+    "menu": "static",
+    "menuItems": 28,
+    "closedToday": false,
+    "soldOutToday": [],
+    "orders": "local",
+    "tenantPath": "piupiu",
+    "emulator": false
+  },
+  "style": {
+    "bg": "#F4F1EB",
+    "card": "#FBF9F5",
+    "inset": "#EEEAE3",
+    "line": "#DFD9CD",
+    "primary": "#595136",
+    "onPrimary": "#F4F1EB",
+    "dark": "#26231A",
+    "dark2": "#3A3525",
+    "cta": "#BF4F2B",
+    "ink": "#1E1B18",
+    "ink2": "#5C564B",
+    "font": "\"Source Serif Pro\", \"Source Serif 4\", Georgia, \"Times New Roman\", serif",
+    "tracking": "0",
+    "case": "none",
+    "weight": "600",
+    "scale": "0.8"
+  }
+}

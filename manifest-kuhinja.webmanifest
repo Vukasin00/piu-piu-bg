@@ -1,0 +1,26 @@
+{
+  "id": "/piu-piu-bg/kuhinja",
+  "name": "PiuPiu · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — PiuPiu",
+  "lang": "sr",
+  "start_url": "/piu-piu-bg/kuhinja",
+  "scope": "/piu-piu-bg/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#26231A",
+  "background_color": "#26231A",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

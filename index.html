@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="sr" data-tenant="piupiu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Poruči sporo pečeno pile, činiju ili wrap iz PiuPiu — pijaca Blok 44 i Hangar food market, Novi Beograd. Dostava ili preuzimanje." />
+    <meta name="theme-color" content="#EEEAE3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="PiuPiu" />
+    <link rel="icon" href="/piu-piu-bg/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/piu-piu-bg/apple-touch-icon.png" />
+    <title>PiuPiu · Pečeni pilići sa rotiserije, Blok 44 i Hangar, Novi Beograd</title>
+    <style>
+      /* Splash painted before the JS bundle arrives (slow networks): brand colour + name, replaced by React. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: var(--color-cream-100, #fff); }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-forest-800, #222); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="piupiu"] {
+  --color-cream-50: #FBF9F5;
+  --color-cream-100: #F4F1EB;
+  --color-cream-200: #EEEAE3;
+  --color-cream-300: #DFD9CD;
+  --color-cream-400: #C2B9A7;
+  --color-azure-100: #E8E5D8;
+  --color-azure-200: #6B6345;
+  --color-azure-300: #595136;
+  --color-azure-400: #463F29;
+  --color-on-primary: #F4F1EB;
+  --color-forest-950: #1A1813;
+  --color-forest-900: #26231A;
+  --color-forest-800: #3A3525;
+  --color-forest-700: #595136;
+  --color-forest-600: #6B6345;
+  --color-forest-500: #857D5F;
+  --color-forest-400: #A29B80;
+  --color-flame-100: #F7E2D9;
+  --color-flame-200: #EBB49E;
+  --color-flame-500: #BF4F2B;
+  --color-flame-600: #A9441F;
+  --color-flame-700: #8C3818;
+  --color-tomato-500: #B8322A;
+  --color-tomato-100: #F6DEDB;
+  --color-basil-500: #5E7F3E;
+  --color-basil-100: #E6EDDC;
+  --color-ink: #1E1B18;
+  --color-ink-2: #5C564B;
+  --color-ink-3: #8E877A;
+  --font-display: "Source Serif Pro", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --display-scale: 0.8;
+  --display-tracking: 0;
+  --display-case: none;
+  --display-weight: 600;
+  --motif: url(/piu-piu-bg/motif.webp) center top / 120px auto repeat, linear-gradient(#EEEAE3, #EEEAE3);
+  --glass-bg: rgba(244, 241, 235, 0.82);
+ }
+/* self-hosted display font (latin + latin-ext for Serbian diacritics); /piu-piu-bg/ is filled in by vite.config.ts.
+   Source Serif Pro 600 = the heading face of piupiu.rs (their own self-hosted files, OFL). */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/piu-piu-bg/fonts/source-serif-pro-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/piu-piu-bg/fonts/source-serif-pro-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    <link rel="preload" as="image" href="/piu-piu-bg/pizzas/piupiu-obrok.webp" />
+    <link rel="preload" as="image" href="/piu-piu-bg/logo.png" />
+    <script type="module" crossorigin src="/piu-piu-bg/assets/main-CiqGfcaI.js"></script>
+    <link rel="stylesheet" crossorigin href="/piu-piu-bg/assets/main-8aLNoPGg.css">
+  <link rel="manifest" href="/piu-piu-bg/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/piu-piu-bg/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">PiuPiu</span><span class="splash-sub">Učitavanje</span></div></div>
+  </body>
+</html>
